@@ -3,8 +3,8 @@ const Web3 = require('web3');
 const { interface, bytecode } = require('./compile');
 
 const provider = new HDWalletProvider(
-    'rubber target delay ribbon slam net correct craft gravity slogan ketchup web',
-    'https://rinkeby.infura.io/v3/fcc623c993404441a15af2b735ef3ff1'
+    '',//mnemonic code/ seed phrase of metamask
+    ''//infura API key
 );
 
 const web3 = new Web3(provider);
